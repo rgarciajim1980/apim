@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ template "am-pattern-3.resource.prefix" . }}-wso2-jks
+  namespace: {{ .Release.Namespace }}
+binaryData:
+  client-truststore.jks: |-
+    {{ .Files.Get "truststores/client-truststore.jks" | b64enc | indent 8 }}
+ 
+

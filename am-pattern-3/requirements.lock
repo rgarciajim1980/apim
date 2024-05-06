@@ -1,0 +1,9 @@
+dependencies:
+- name: mysql-am
+  repository: https://chartmuseum.apps.paas-des.junta-andalucia.es
+  version: 4.3.0
+- name: nfs-server-provisioner
+  repository: https://helm.wso2.com
+  version: 1.1.0
+digest: sha256:80951c6a671b5ca9e5d83fa69822cf394535156cf76ad868f8079eb8e0debbc8
+generated: "2024-05-03T08:43:15.410364+02:00"

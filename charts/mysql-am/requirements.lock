@@ -1,0 +1,6 @@
+dependencies:
+- name: mysql
+  repository: https://helm.wso2.com
+  version: 1.6.9
+digest: sha256:c17a66f430229eff0a79590f96dc171cc41baa952ec6a8ae82988f9c7674caf6
+generated: "2024-05-01T13:03:42.776067+02:00"
